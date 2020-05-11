@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.8)), 
+  url("https://wallpapercave.com/wp/wp3338789.jpg");
+  background-size: 1200px; 
+  background-position: center;
+  font-family: Arial; 
+  height: 100vh;
+
+}
+.menu ul{
+  display: flex; 
+  justify-content: space-around;
+}
+
+.menu li{
+  list-style: none;
+}
+
+a { 
+  color: teal; 
+  text-decoration: none;  
+  
+}
+
+a:hover{
+    color: red;
+    text-decoration:underline; 
+  
+}
+.site-subtitle,
+.site-title{
+  color: grey;
+  text-align: center; 
+}
+
+.site-subtitle{
+  font-style: italic;
+  font-family: verdana; 
+}
+
